@@ -8,7 +8,7 @@ BUFF_SIZE = 65536
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 client_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, BUFF_SIZE)
 
-host_ip = 'IP_DEL_SERVIDOR'  # Reemplaza con la IP real del servidor
+host_ip = '10.100.82.127' 
 port = 8080
 message = b'Conectado'
 

@@ -8,7 +8,7 @@ BUFF_SIZE = 65536
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, BUFF_SIZE)
 
-host_ip = 'IP_DEL_SERVIDOR'  # Reemplaza con la IP local del servidor
+host_ip = '192.168.0.18'  # Reemplaza con la IP local del servidor
 port = 8080
 socket_address = (host_ip, port)
 server_socket.bind(socket_address)
