@@ -6,7 +6,7 @@ import java.io.*;
 import java.net.Socket;
 
 public class FTPCliente extends JFrame {
-    private static final String SERVER_ADDRESS = "192.168.1.100"; // Cambia por la IP de tu servidor Linux Mint
+    private static final String SERVER_ADDRESS = "192.168.254.1"; // Cambia por la IP de tu servidor Linux Mint
     private static final int PORT = 21;
     private JTextField filePathField;
     private JButton uploadButton;
